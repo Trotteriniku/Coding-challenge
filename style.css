@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------
+tratti standard
+--------*/
+html{
+  font-family: 'Space Grotesk', sans-serif;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+  color: lime;
+}
+
+header  img{
+  width: 100%
+}
+
+nav{
+  background-color: lime;
+  padding: 10px;
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 8px;
+}
+
+h2{
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+p{
+  margin-bottom: 3px;
+}
+/*--------
+CONTAINER
+--------*/
+.container{
+  border-radius: 18px;
+  max-width: 1200px;
+  height: 850px;
+  margin: 24px auto;
+  padding: 130px 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+  div img{
+    width: 20%;
+}
+
+/*--------
+fine-CONTAINER
+--------*/
+
+/*--------
+MAIN
+--------*/
+.margin{
+  margin-bottom: 24px;
+}
+
+.first-mono > hr{
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: orange;
+  width: 30%;
+}
+
+.sec-mono > hr{
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: lawngreen;
+  width: 60%;
+}
+
+.third-mono > hr{
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: indianred;
+  width: 15%;
+}
+/*--------
+ fine-MAIN
+--------*/
